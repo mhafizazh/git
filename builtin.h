@@ -229,6 +229,7 @@ int cmd_pack_redundant(int argc, const char **argv, const char *prefix, struct r
 int cmd_patch_id(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_prune(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_prune_packed(int argc, const char **argv, const char *prefix, struct repository *repo);
+int cmd_psuh(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_pull(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_push(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_range_diff(int argc, const char **argv, const char *prefix, struct repository *repo);
@@ -284,5 +285,6 @@ int cmd_verify_pack(int argc, const char **argv, const char *prefix, struct repo
 int cmd_show_ref(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_pack_refs(int argc, const char **argv, const char *prefix, struct repository *repo);
 int cmd_replace(int argc, const char **argv, const char *prefix, struct repository *repo);
+
 
 #endif
